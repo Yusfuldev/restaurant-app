@@ -1,11 +1,80 @@
-.App {
-  text-align: center;
+body {
+  background-color: whitesmoke;
+  font-family: "Raleway";
+  font-size: 14px;
+  color: black;
+}
+/*====== HEADER SECTION======*/
+nav {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* position: fixed; */
+  height: 50px;
+  /* top: 0; */
+}
+.logo{
+  font-family: lobster;
+  font-size: 1.5em;
+}
+.logo span{
+  color: chocolate;
+}
+a{
+  text-decoration: none;
+}
+nav > ul {
+  
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin-left: 80px;
+}
+nav > ul li {
+  margin-left: 1rem;
+}
+/*====== ABOUT SECTION======*/
+.about{
+ text-align: center;
+ padding: 1em;
+}
+.hero{
+  /* margin-top: 50px; */
+  color: white;
+  background-color: #626b6b; 
+  padding: 1em .5em;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.hero h4{
+  font-family: lobster;
+  font-weight: 400;
+  font-size: 2rem;
+  color: chocolate;
 }
+.hero h3, .hero h5{
+  font-weight: 400;
+  font-size: 2rem;
+}
+.title{
+  color: chocolate;
+}
+
+.about p, .about ul{
+  text-align: left;
+}
+
+
+
+
+
+
+
+/* svg {
+  margin-top: 1rem;
+  margin-left: 24rem;
+  cursor: pointer;
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
